@@ -1,9 +1,6 @@
-//Question : How can you find the factorial of an integer in Java?
-
-package HolidayAssignments;
+package BasicsOfJava;
 
 import java.util.Scanner;
-
 class Fact
 {
 	int n;
@@ -15,8 +12,8 @@ class Fact
 		}
 		else
 		{
-			return n*fact(n-1); 		//The method fact(n-1) is calling the fact(int n) method itself
-		}								//recursion
+			return n*fact(n-1); //The method fact(n-1) is calling the fact(int n) method itself
+		}
 	}
 }
 
@@ -30,8 +27,6 @@ public class Factorial
 		int n=scan.nextInt();
 //		int factorial=f.fact(n);
 		System.out.println("The factorial of "+n+" is: "+f.fact(n));
-		
-		scan.close();
 	}
 
 }
